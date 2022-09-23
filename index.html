@@ -6,11 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <style>
       body {
         background: black;
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="scores">
+        <h1><span id="you">0</span> - <span id="computer">0</span></h1>
+        <span>You - Computer</span>
+      </section>
+      <span>Choose your weapon:</span>
+      <div class="btn-container">
+        <button class="choice">Rock</button>
+        <button class="choice">Paper</button>
+        <button class="choice">Scissors</button>
+      </div>
+      <div class="result">
+        <span class="round-text"></span>
+        <span class="result-text"></span>
+      </div>
+    </main>
+  </body>
 </html>
